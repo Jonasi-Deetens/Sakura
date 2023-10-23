@@ -10,33 +10,46 @@
 <body>
     <header role="banner" class="bgSakura bg-fixed bg-no-repeat h-32 p-10">
     </header>
-    <nav role="navigation" class="flex m-auto justify-between">
+    <nav role="navigation" class="bg-white flex m-auto justify-between border-b border-pink-700 sticky top-0">
         <ul class="flex text-center m-auto ml-20 justify-between">
-            <li class="mr-5 text-lg p-4 font-semibold text-pink-700 drop-shadow"><a href="../../index.html">Home</a></li>
-            <li class="mr-5 text-lg p-4 font-semibold text-pink-700 drop-shadow"><a href="#">About</a></li>
-            <li class="mr-5 text-lg p-4 font-semibold text-pink-700 drop-shadow"><a href="../japan/index.html">Japan</a></li>
-            <li class="mr-5 text-lg p-4 font-semibold text-pink-700 drop-shadow"><a href="../america/index.html">America</a></li>
+            <li class="mr-5 text-lg p-4 font-semibold text-pink-700 hover:text-pink-400 drop-shadow"><a href="../../index.html">Home</a></li>
+            <li class="mr-5 text-lg p-4 font-semibold bg-pink-600 text-white"><a href="#">About</a></li>
+            <li class="mr-5 text-lg p-4 font-semibold text-pink-700 hover:text-pink-400 drop-shadow"><a href="../japan/index.html">Japan</a></li>
+            <li class="mr-5 text-lg p-4 font-semibold text-pink-700 hover:text-pink-400 drop-shadow"><a href="../america/index.html">America</a></li>
         </ul>
         <p class="text-right text-lg p-4 font-semibold text-pink-700 drop-shadow">Travelling with Jonasi Deetens</p>
     </nav>
-    <main role="main">
+    <main role="main" class="text-lg">
         <h1 class="text-3xl text-center p-5 font-semibold bg-pink-600 shadow-md shadow-pink-200">Who am I?</h1>
-        <section class="">
-            <div class="flex flex-row p-10">
-                <figure class="w-1/2 text-center">
-                    <img class="m-auto shadow border border-pink-600" src="../../images/japan.png" alt="Sections of Japan">
-                    <figcaption>Sections in Japan.</figcaption>
-                </figure>
-                <p class="w-1/2 m-auto mr-20 text-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla excepturi delectus nihil harum a sed at minima reprehenderit non aspernatur, officia id odit error quo dolor dolores! Repellat, error quae.
-                    Iure necessitatibus totam excepturi dolorum, id provident maiores nam voluptatem. Aliquid, ad tenetur sint saepe corrupti dolorem libero odio dicta animi accusamus perspiciatis quo quidem excepturi quaerat reiciendis inventore nihil.
-                    Quaerat, nulla dicta! Nihil illo vel deleniti laborum voluptate, dignissimos explicabo nobis, cum id repudiandae, quas soluta consequatur aliquam doloribus aliquid rerum ipsa hic ducimus debitis? Eveniet reprehenderit aliquid ad.
-                </p>
+        <section class="text-center">
+            <figure>
+                <img class="w-56 m-auto mt-10 shadow border border-pink-600" src="../../images/me.png" alt="Photo of the blog creator">
+                <figcaption>Blogger - Jonasi Deetens</figcaption>
+            </figure>
+            <p>-</p>
+            <p>Just your average traveler, that wants to go out and see all of the beauties that life has to offer.</p>
+            <br>
+        </section>
+        <hr class="border-pink-400 border-dotted border-t-4 w-1/6 m-auto">
+        <section>
+            <h2 class="text-xl text-center underline font-semibold mt-4 mb-2">Hobbies:</h2>
+            <br>
+            <div class="w-1/4 m-auto flex flex-wrap">
+                <ul class="m-auto text-left list-disc">
+                    <li>Travelling</li>
+                    <li>Sightseeing</li>
+                    <li>Exploring</li>
+                </ul>
+                <ul class="m-auto text-left list-disc">
+                    <li>Flying</li>
+                    <li>Beaching</li>
+                </ul>
             </div>
+            <br>
         </section>
     </main>
-    <footer role="contentinfo">
-
+    <footer role="contentinfo" class="w-full text-center p-2 bg-pink-700">
+        <p class="text-lg text-white font-semibold">&copy; Copyright infringement is a nice skill to have.</p>
     </footer>
 </body>
 </html>
