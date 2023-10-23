@@ -1,3 +1,8 @@
 .bgSakura {
     background-image: url("../images/sakura-tree-small.png");
 }
+
+img {
+    width: 400px;
+    height: 250px;
+}
