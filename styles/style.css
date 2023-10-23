@@ -1,8 +1,21 @@
-.bgSakura {
-    background-image: url("../images/sakura-tree-small.png");
-}
-
 img {
     width: 400px;
     height: 250px;
 }
+
+.smallImg {
+    width: 40px;
+    height: 40px;
+}
+
+.bgSakura {
+    background-image: url("../images/sakura-tree-small.png");
+}
+
+.falling-leaves-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
