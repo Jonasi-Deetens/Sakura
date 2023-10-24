@@ -24,17 +24,17 @@
         <h1 class="text-3xl text-center p-5 font-semibold bg-pink-600 shadow-md shadow-pink-200">Contact Me</h1>
         <section class="w-2/3 m-auto mb-8">
             <h2 class="text-xl text-center font-semibold mt-4 mb-2">Any ideas where to go next?</h2>
-            <p class="text-center text-lg p-8">
+            <p role="text" aria-label="ideas are welcome" class="text-center text-lg p-8">
                 Ideas for the website are welcome as wel!
             </p>
             <form action="" class="flex flex-col justify-between md:w-2/3 p-10 rounded-lg m-auto bg-pink-500">
                 <label for="name" class="mb-2 text-lg font-semibold">Name:</label>
-                <input role="textbox" aria-label="your name" type="text" name="name" id="name" placeholder="Your name" class="w-1/2 mb-5 p-2 shadow focus:shadow-md focus:outline-none focus:scale-105">
+                <input role="textbox" aria-label="your name" type="text" name="name" id="name" placeholder="Your name" class="w-1/2 mb-5 p-2 shadow focus:shadow-md focus:outline-none focus:scale-110 transition-transform">
                 <label for="email" class="mb-2 text-lg font-semibold">E-mail:</label>
-                <input role="textbox" aria-label="your email" type="email" name="email" id="email" placeholder="Your e-mail" class="w-1/2 mb-5 p-2 shadow focus:shadow-md focus:outline-none focus:scale-105">
+                <input role="textbox" aria-label="your email" type="email" name="email" id="email" placeholder="Your e-mail" class="w-1/2 mb-5 p-2 shadow focus:shadow-md focus:outline-none focus:scale-110 transition-transform">
                 <label for="message" class="mb-2 text-lg font-semibold">Text:</label>
-                <textarea role="textbox" aria-label="your message" name="message" id="message" placeholder="Your message" cols="30" rows="5" class="p-2 shadow focus:shadow-md focus:outline-none focus:scale-105"></textarea>
-                <button role="button" aria-label="send" type="submit" class="mt-5 bg-white w-20 rounded-md border border-pink-600 hover:bg-pink-600 hover:text-white shadow">Send</button>
+                <textarea role="textbox" aria-label="your message" name="message" id="message" placeholder="Your message" cols="30" rows="5" class="p-2 shadow focus:shadow-md focus:outline-none focus:scale-105 transition-transform"></textarea>
+                <button role="button" aria-label="send" type="submit" class="m-auto mt-5 bg-white w-20 rounded-md shadow border border-pink-600 hover:bg-pink-600 hover:text-white hover:scale-110 transition-transform">Send</button>
             </form>
         </section>
     </main>
