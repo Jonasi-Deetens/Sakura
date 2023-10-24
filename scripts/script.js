@@ -12,7 +12,7 @@ function generateLeaves() {
     image.classList.add("shadow-inner");
     image.classList.add("shadow-md");
     image.classList.add("shadow-pink-300");
-    document.body.appendChild(image);
+    document.getElementsByClassName("falling-leaves-container")[0].appendChild(image);
   
     // Animate the falling leaf
     var animation = image.animate(
