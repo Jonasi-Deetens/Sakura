@@ -2,7 +2,7 @@ setInterval(generateLeaves, 1000);
 
 function generateLeaves() {
     var image = new Image(4,4);
-    image.src = "../images/sakura-tree-leaf-" + Math.round(Math.random()* 5 + 1) + ".png";
+    image.src = "./images/sakura-tree-leaf-" + Math.round(Math.random()* 5 + 1) + ".png";
     image.style.position = "absolute";
     image.style.left = Math.random() * 100 + "vw"; // Random horizontal position
     image.style.top = "-40px"; // Start above the screen
