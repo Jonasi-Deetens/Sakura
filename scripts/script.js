@@ -7,7 +7,10 @@ function generateLeaves() {
     image.style.left = Math.random() * 100 + "vw"; // Random horizontal position
     image.style.top = "-40px"; // Start above the screen
     image.classList.add("smallImg");
-    image.classList.add("drop-shadow-md");
+    image.classList.add("rounded-full");
+    image.classList.add("shadow-inner");
+    image.classList.add("shadow-md");
+    image.classList.add("shadow-pink-300");
     document.body.appendChild(image);
   
     // Animate the falling leaf

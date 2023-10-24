@@ -4,12 +4,16 @@ img {
 }
 
 .smallImg {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
 
 .bgSakura {
     background-image: url("../images/sakura-tree-small.png");
+}
+
+.bgSakura-lg {
+    background-image: url("../images/sakura-tree.png");
 }
 
 .falling-leaves-container {
