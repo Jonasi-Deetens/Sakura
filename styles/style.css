@@ -15,3 +15,7 @@ img {
 .bgSakura-lg {
     background-image: url("../images/sakura-tree.png");
 }
+
+.letterShadow {
+    filter: drop-shadow(2px 2px #d668b9);
+}

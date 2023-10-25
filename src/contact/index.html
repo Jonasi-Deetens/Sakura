@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../../styles/style.css">
+    <script src="../../scripts/hamburgerNav.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header role="banner" aria-label="image of a sakura tree" class="bgSakura bg-fixed bg-no-repeat h-32 p-10">
     </header>
-    <nav role="navigation" class="bg-white flex flex-col md:flex-row m-auto justify-between border-b border-pink-700 sticky top-0">
-        <ul class="flex flex-col md:flex-row text-center m-auto md:ml-20 justify-center md:justify-between">
+    <nav role="navigation" class="bg-white flex flex-col sm:flex-row m-auto justify-between border-b border-pink-700 sticky top-0">
+        <button class="block sm:hidden text-center m-auto p-5 hover:scale-110 duration-200 active:rotate-180" onclick="openNav()"><img class="w-12 h-8" src="../../images/hamburger-nav.svg" alt="hamburger image lines"></button>
+        <ul class="hidden sm:flex flex-col sm:flex-row text-center m-auto md:ml-20 justify-center md:justify-between">
             <li class="md:mr-5 text-lg p-4 font-semibold text-pink-700 hover:text-pink-400 drop-shadow"><a href="../../index.html">Home</a></li>
             <li class="md:mr-5 text-lg p-4 font-semibold text-pink-700 hover:text-pink-400 drop-shadow"><a href="../about/index.html">About</a></li>
             <li class="md:mr-5 text-lg p-4 font-semibold text-pink-700 hover:text-pink-400 drop-shadow"><a href="../japan/index.html">Japan</a></li>
             <li class="md:mr-5 text-lg p-4 font-semibold text-pink-700 hover:text-pink-400 drop-shadow"><a href="../america/index.html">America</a></li>
             <li class="text-lg p-4 font-semibold bg-pink-600 text-white"><a href="#">Contact</a></li>
         </ul>
-        <p class="text-right text-lg p-4 font-semibold text-pink-700 drop-shadow hidden md:block">Travelling with Jonasi Deetens</p>
+        <p class="text-center text-lg p-4 font-semibold text-pink-700 drop-shadow block">Travelling with Jonasi Deetens</p>
     </nav>
     <main role="main">
         <h1 class="text-3xl text-center p-5 font-semibold bg-pink-600 shadow-md shadow-pink-200">Contact Me</h1>
