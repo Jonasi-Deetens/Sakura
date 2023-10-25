@@ -17,5 +17,12 @@ img {
 }
 
 .letterShadow {
-    filter: drop-shadow(2px 2px #d668b9);
+    filter: drop-shadow(1px 1px #d668b9);
+}
+
+@media (min-resolution: 192dpi) {
+    .mainZoomHome {
+        transform-origin: 100% 50%;
+        transform: scale(0.75);
+    }
 }
