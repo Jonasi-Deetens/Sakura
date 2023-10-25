@@ -19,6 +19,11 @@ img {
     height: 20px;
 }
 
+.titleGradient {
+    background: rgb(239,136,232);
+    background: linear-gradient(356deg, rgba(239,136,232,0.7904411764705882) 1%, rgba(220,81,237,0.8576680672268908) 46%, rgba(225,29,194,0.8828781512605042) 100%);   
+}
+
 .bgSakura {
     background-image: url("../images/sakura-tree-small.png");
 }
