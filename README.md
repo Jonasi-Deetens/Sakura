@@ -12,7 +12,7 @@ You can go and follow this journey on (https://jonasi-deetens.github.io/Sakura/)
 What more than some of the highlights and discoveries on untill that moment unknown culture and food.
 
 ## How does it look you ask?
-![](./images/preview.PNG)
+!["screenshot of landing page"](./images/preview.PNG)
 
 ## Progress
 
