@@ -6,7 +6,7 @@
 }
 
 body {
-    overflow: auto;
+    overflow: hidden;
 }
 
 h1,h2,p,li,a,label {
