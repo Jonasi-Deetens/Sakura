@@ -5,10 +5,6 @@
     font-style: normal;
 }
 
-body {
-    overflow: hidden;
-}
-
 h1,h2,p,li,a,label {
     font-family: 'comfort';
 }

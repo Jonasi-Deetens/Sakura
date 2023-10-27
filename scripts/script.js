@@ -45,7 +45,7 @@ function generateFloatingLeaves() {
     image.alt = "Sakura leaf floating";
     image.style.position = "absolute";
     image.style.left = "-40px"; // Start left of the screen
-    image.style.top = Math.random() * 10 + "%"; // Random vertical position
+    image.style.top = Math.random() * 90 + 5 + "%"; // Random vertical position
     image.classList.add("smallImg");
     image.classList.add("rounded-full");
     document.getElementsByClassName("floating-leaves-container")[0].appendChild(image);
